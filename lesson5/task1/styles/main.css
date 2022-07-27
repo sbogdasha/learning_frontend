@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 85%;
+    height: 70%;
+    background-image: url(/lesson5/task1/img/bg_line.png);
+    background-repeat: repeat;
+    display: flex;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8%;
+}
+
+.description-text {
+    margin-top: 8%;
+    color: #a78d8d;
+    font-size: 18px;
+    text-align: center;
+}
+
+.gg-smartphone {
+    color:white;
+
+}
+
+.blue-frame:hover > .gg-smartphone {
+    color: #0072be;
+}
+
+.blue-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0072be;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.blue-frame:hover {
+    background-color: transparent;
+    border: 1px solid #0072be;
+}
+
+.blue-frame:hover > .bi-speedometer2,
+.blue-frame:hover > .bi-gear {
+    fill:#0072be;
+}

@@ -1,0 +1,142 @@
+* {
+    transition: all .1s ease-in;
+    box-sizing: border-box;
+}
+
+h1 {
+margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    background-color: #4f5055;
+    color: #ea7571;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    background-color: #363b47;
+}
+
+form {
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.items-list {
+    margin: 50px;
+}
+
+.subheading-text {
+    font-size: 20px;
+}
+
+.items-list {
+    height: 300px;
+    width: 700px;
+}
+
+.item {
+    height: 16.6666666667%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.item:nth-child(odd) {
+    background-color: #8b859a;
+}
+
+.item:nth-child(even) {
+    background-color: #7a738d;
+}
+
+.items-list {
+    list-style-type: none;
+}
+
+.label-text {
+    width: 100%;
+    height:100%;
+    font-size: 20px;
+    color: #f2f5f6;
+}
+
+.item-small-text {
+    font-size: 12px;
+    color: #c3b6bf;
+}
+
+.submit-button {
+    margin-left: 40px;
+    height: 60px;
+    width: 660px;
+    background-color: #495055;
+    color: #ea7571;
+    border: none;
+    font-size: 20px;
+}
+
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+
+.custom-checkbox + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.custom-checkbox + label::before {
+    margin-left: 15px;
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #dfdcdf;
+    margin-right: 0.5em;
+    background-color: #dfdcdf;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.custom-checkbox:checked + label::before {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%404340' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+    background-size: 100%;
+}
+
+
+.custom-checkbox:checked + label{
+    color: #9d99b2;
+    text-decoration: line-through;
+}
+
+.custom-checkbox:checked + label > .item-small-text {
+    color: #9d99b2;
+}
+
+.item:hover {
+    background-color: #63596f;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.item:active {
+    background-color: #ea7571;
+}
