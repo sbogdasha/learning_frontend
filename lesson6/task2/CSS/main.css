@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    src: url(../font/LucidaGrande.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+    margin:3% 15% 3%;
+    
+}
+
+body {
+    border: 2.5rem solid #2a84ad;
+    color: #fff;
+    background-color: #32a1c5;
+}
+
+main {
+    width: 100%;
+    height: 90%;
+    background-color: #32a1c5;
+}
+
+li {
+    list-style-type: none;
+    height:25%;
+    display: inline-block;
+    border-top: 0.2em solid #fff;
+    border-left: 0.2em solid #fff;
+    font-size: 38px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.table {
+    width: 70%;
+    height: 75%;
+    margin: auto;
+    margin-bottom: 2%;
+    font-size: 0;
+}
+
+.city-name {
+    display: inline-block;
+    margin :1em 0 0.8em;
+}
+
+.lisbon, .san-francisco {
+    width: 50%;
+}
+
+.paris, .belgrade, .tokyo, .tel-aviv, .cair, .new-york, .new-delhi, .monaco {
+    width: 25%;
+}
+
+.belgrade, .new-york, .monaco, .sydney {
+    border-right: 0.2em solid #fff;
+}
+
+.sydney {
+    width: 100%;
+    border-bottom: 0.2em solid #fff;
+}
+
+.lisbon {
+    background-color: #3896d1;
+}
+
+.paris {
+    background-color: #35d3cb;
+}
+
+.belgrade {
+    background-color: #926799;
+}
+
+.tokyo {
+    background-color: #c0474a;
+}
+
+.tel-aviv {
+    background-color: #dd634b;
+}
+
+.cair {
+    background-color: #fbc467;
+}
+
+.new-york {
+    background-color: #96c79c;
+}
+
+.new-delhi {
+    background-color: #5e9c9f;
+}
+
+.san-francisco {
+    background-color: #cb6294;
+}
+
+.sydney {
+    background-color: #646c98;
+}
+.temperature > span::after{
+    content: "℃";
+}
+
+.bottom-text {
+    font-size: 38px;
+    margin-left: 15%;
+    width: 70%;
+}
+
+.temperature {
+    opacity: 0.7;
+}
+
+ul:hover > li {
+    opacity: 0.7;
+}
+
+
+ul > li:hover {
+    opacity: 1;
+}
