@@ -24,7 +24,6 @@ body {
 
 main {
     width: 100%;
-    height: 90%;
     background-color: #32a1c5;
 }
 
@@ -34,7 +33,7 @@ li {
     display: inline-block;
     border-top: 0.2em solid #fff;
     border-left: 0.2em solid #fff;
-    font-size: 38px;
+    font-size: 20px;
     text-align: center;
     overflow: hidden;
 }
@@ -113,8 +112,9 @@ li {
 }
 
 .bottom-text {
-    font-size: 38px;
+    font-size: 18px;
     margin-left: 15%;
+    margin-bottom: 1em;
     width: 70%;
 }
 
