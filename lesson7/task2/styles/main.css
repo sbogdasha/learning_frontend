@@ -113,11 +113,7 @@ h2::after {
     color: var(--light-grey-text);
     text-transform: uppercase;
     letter-spacing: 0.3em;
-}
-
-.main-text {
-    
-}
+} 
 
 .text-paragraph {
     font-family: 'Tinos', serif;
