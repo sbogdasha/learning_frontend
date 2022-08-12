@@ -72,6 +72,8 @@ main {
 .main-item-big {
     width: 66%;
     background-image: url('../img/pic1.png');
+    background-repeat: no-repeat;
+    background-size:cover;
     padding: 380px 100px 0 42px;
 }
 
