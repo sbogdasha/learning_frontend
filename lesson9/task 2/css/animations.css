@@ -1,0 +1,252 @@
+.animation-box:hover .move-boat:after {
+  animation: smoke-move 1s linear infinite;
+  -webkit-animation: smoke-move 1s linear infinite;
+}
+.animation-box:hover .wave {
+  animation: wave-move 15s linear reverse infinite;
+  -webkit-animation: wave-move 15s linear reverse infinite;
+}
+.animation-box:hover .sun {
+  animation: sun-rot 15s linear reverse infinite;
+  -webkit-animation: 10s linearreverse infinite;
+}
+.animation-box:hover .cloud {
+  animation: cloud-move 10s linear infinite;
+  -webkit-animation: cloud-move 10s linear infinite;
+}
+.animation-box:hover {
+  animation: cloud-color 10s linear infinite;
+  -webkit-animation: cloud-color 10s linear infinite;
+}
+
+.animation-box:hover .sun {
+  animation: sun-rotation 100000s linear infinite;
+}
+
+.animation-box:hover .boat {
+  animation: boat-moving 10s linear infinite;
+  -webkit-animation: boat-moving 10s linear infinite;
+}
+
+.animation-box:hover .smoke {
+  animation: boat-moving 10s linear infinite, cloud-change 10s linear infinite;;
+  -webkit-animation: boat-moving 10s linear infinite, cloud-change 10s linear infinite;
+}
+
+
+@-webkit-keyframes cloud-color {
+  0% {
+    color: transparent;
+  }
+  20% {
+    color: #262f37;
+  }
+  40% {
+    color: transparent;
+  }
+}
+
+@keyframes sun-rotation {
+  from {
+
+    }
+
+  to {
+    transform: rotateZ(1800000deg);
+  }
+}
+
+@keyframes cloud-change {
+  0% {
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+    -webkit-filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+
+  }
+  20% {
+    filter: invert(41%) sepia(23%) saturate(2213%) hue-rotate(61deg) brightness(91%) contrast(85%);
+    -webkit-filter: invert(41%) sepia(23%) saturate(2213%) hue-rotate(61deg) brightness(91%) contrast(85%);
+  }
+  40% {
+    filter: invert(49%) sepia(69%) saturate(438%) hue-rotate(18deg) brightness(98%) contrast(87%);
+    -webkit-filter: invert(49%) sepia(69%) saturate(438%) hue-rotate(18deg) brightness(98%) contrast(87%);
+  }
+  60% {
+    filter: invert(39%) sepia(93%) saturate(2499%) hue-rotate(4deg) brightness(94%) contrast(98%);
+    -webkit-filter: invert(39%) sepia(93%) saturate(2499%) hue-rotate(4deg) brightness(94%) contrast(98%);
+  }
+  80% {
+    filter: invert(15%) sepia(76%) saturate(5148%) hue-rotate(239deg) brightness(80%) contrast(134%);
+    -webkit-filter: invert(15%) sepia(76%) saturate(5148%) hue-rotate(239deg) brightness(80%) contrast(134%);
+  }
+  100% {
+    filter: invert(19%) sepia(85%) saturate(7448%) hue-rotate(300deg) brightness(102%) contrast(106%);
+    -webkit-filter: invert(19%) sepia(85%) saturate(7448%) hue-rotate(300deg) brightness(102%) contrast(106%);
+  }
+}
+
+@keyframes sun-rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes sun-rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes wave-move {
+  0% {
+    transform: translateX(-3700px);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+@-webkit-keyframes wave-move {
+  0% {
+    transform: translateX(-3700px);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+@keyframes cloud-move {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-1200px);
+  }
+}
+@-webkit-keyframes cloud-move {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-1250px);
+  }
+}
+@keyframes boat-moving {
+  0% {
+    transform: translateX(0px) rotatez(-6deg);
+  }
+  10% {
+    transform: translateX(120px) rotatez(6deg);
+  }
+  20% {
+    transform: translateX(240px) rotatez(-6deg);
+  }
+  30% {
+    transform: translateX(360px) rotatez(6deg);
+  }
+  40% {
+    transform: translateX(480px) rotatez(-6deg);
+  }
+  50% {
+    transform: translateX(600px) rotatez(6deg);
+  }
+  60% {
+    transform: translateX(720px) rotatez(-6deg);
+  }
+  70% {
+    transform: translateX(840px) rotatez(6deg);
+  }
+  80% {
+    transform: translateX(960px) rotatez(-6deg);
+  }
+  90% {
+    transform: translateX(1080px) rotatez(6deg);
+  }
+  100% {
+    transform: translateX(1400px) rotatez(-6deg);
+  }
+}
+@-webkit-keyframes boat-move {
+  0% {
+    transform: translateX(0px) rotatez(-6deg);
+  }
+  10% {
+    transform: translateX(120px) rotatez(6deg);
+  }
+  20% {
+    transform: translateX(240px) rotatez(-6deg);
+  }
+  30% {
+    transform: translateX(360px) rotatez(6deg);
+  }
+  40% {
+    transform: translateX(480px) rotatez(-6deg);
+  }
+  50% {
+    transform: translateX(600px) rotatez(6deg);
+  }
+  60% {
+    transform: translateX(720px) rotatez(-6deg);
+  }
+  70% {
+    transform: translateX(840px) rotatez(6deg);
+  }
+  80% {
+    transform: translateX(960px) rotatez(-6deg);
+  }
+  90% {
+    transform: translateX(1080px) rotatez(6deg);
+  }
+  100% {
+    transform: translateX(1200px) rotatez(-6deg);
+  }
+}
+@keyframes boat-swing {
+  25% {
+    transform: rotatez(-5deg);
+  }
+  75% {
+    transform: rotatez(5deg);
+  }
+}
+@-webkit-keyframes boat-swing {
+  25% {
+    transform: rotatez(-5deg);
+  }
+  75% {
+    transform: rotatez(5deg);
+  }
+}
+@keyframes smoke-move {
+  50% {
+    transform: translateX(-25px) translateY(-25px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50px) translateY(-50px);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes smoke-move {
+  50% {
+    transform: translateX(-25px) translateY(-25px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50px) translateY(-50px);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes cloud-color {
+  0% {
+    background-color: transparent;
+  }
+  20% {
+    background-color: #262f37;
+  }
+  40% {
+    background-color: transparent;
+  }
+}
