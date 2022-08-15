@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@300;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --bg-color:  #f8f8fb;
+}
+
+html {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    background-color: var(--bg-color);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+
+}
+
+h2, h3, p {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-size: 90px;
+}
+
+h3 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.wrapper {
+    background-image: url(../img/img-1.png);
+    height: 1000px;
+    padding: 0 100px 0 100px;
+}
+
+.section {
+    padding: 0 100px 0 100px;
+}
+
+.header {
+    min-width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo-text {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav__link:hover {
+    border-top: 4px solid #f4781a;
+}
+
+.header__logo-block {
+    width: 50%;
+}
+
+.header__nav {
+    width: 50%;
+}
+
+.fresh-life, .fresh-life__text-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.fresh-life {
+    height: 850px;
+    justify-content: center;
+}
+
+.fresh-life__text-block {
+    height: 30%;
+    width: 35%;
+    justify-content: space-between;
+}
+
+.get-free-btn {
+    width: 200px;
+    height: 55px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #ff6033;
+    color: #fff;
+    box-shadow: 0px 2px 5px #0e0c0a;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.about-us {
+    background-color: #00b2b2;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 700px;
+}
+
+.about-us__text-block, .about-us__picture-block {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-us__text-block {
+    height: 300px;
+    color: #fff;
+    padding-left: 40px;
+}
