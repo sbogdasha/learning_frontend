@@ -40,9 +40,14 @@ p {
 }
 
 .wrapper {
-    background-image: url(../img/img-1.png);
+    background: url(../img/img-1.png) no-repeat center center;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     height: 1000px;
     padding: 0 100px 0 100px;
+    object-fit:none;
 }
 
 .section {
@@ -121,6 +126,7 @@ p {
     flex-direction: row-reverse;
     align-items: center;
     height: 700px;
+    overflow: hidden;
 }
 
 .about-us__text-block, .about-us__picture-block {
@@ -134,4 +140,8 @@ p {
     height: 300px;
     color: #fff;
     padding-left: 40px;
+}
+
+.about-us__picture {
+    object-fit:none;
 }
