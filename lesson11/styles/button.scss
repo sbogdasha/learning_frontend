@@ -1,0 +1,35 @@
+.buttons {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    width: 15%;
+    height: 50px;
+    font-size: 24px;
+    color: $main-text-white;
+    overflow: hidden;
+
+    &--green {
+       @include btn-color($green-bg);
+    }
+
+    &--yellow {
+        @include btn-color($yellow-bg);
+    }
+
+    &--red {
+        @include btn-color($red-bg);
+    }
+
+    &--blue {
+        @include btn-color($blue-bg);
+    }
+
+    &--gray {
+        @include btn-color($gray-bg);
+    }
+}

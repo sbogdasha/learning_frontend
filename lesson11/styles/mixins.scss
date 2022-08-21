@@ -1,0 +1,4 @@
+@mixin btn-color($green-bg) {
+    background-color: $green-bg;
+    border: 2px solid darken($green-bg, 10%);
+}

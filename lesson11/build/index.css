@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: #ccc;
+  min-height: 100%;
+  font-family: sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  align-items: center;
+}
+
+.main, .main__paginations-container, .main__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main__container {
+  width: 90%;
+}
+.main__paginations-container {
+  flex-direction: row;
+  width: 90%;
+}
+
+.buttons {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  width: 15%;
+  height: 50px;
+  font-size: 24px;
+  color: #f9fffb;
+  overflow: hidden;
+}
+.btn--green {
+  background-color: #29b25e;
+  border: 2px solid #1f8948;
+}
+.btn--yellow {
+  background-color: #f7c908;
+  border: 2px solid #c6a106;
+}
+.btn--red {
+  background-color: #f34333;
+  border: 2px solid #e6200e;
+}
+.btn--blue {
+  background-color: #1e7fbc;
+  border: 2px solid #176190;
+}
+.btn--gray {
+  background-color: #4a4851;
+  border: 2px solid #313036;
+}
+
+.checkboxes-block {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+.checkboxes-block__label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.checkboxes-block__label .checkboxes-block__checkbox {
+  position: absolute;
+  opacity: 0;
+}
+.checkboxes-block__fake-chbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 28px;
+  width: 28px;
+  background-color: #eee;
+}
+.checkboxes-block__label .checkboxes-block__checkbox--green:checked ~ .checkboxes-block__fake-chbox {
+  background-color: #29b25e;
+}
+.checkboxes-block__label .checkboxes-block__checkbox--yellow:checked ~ .checkboxes-block__fake-chbox {
+  background-color: #f7c908;
+}
+.checkboxes-block__label .checkboxes-block__checkbox--red:checked ~ .checkboxes-block__fake-chbox {
+  background-color: #f34333;
+}
+.checkboxes-block__label .checkboxes-block__checkbox--blue:checked ~ .checkboxes-block__fake-chbox {
+  background-color: #1e7fbc;
+}
+.checkboxes-block__label .checkboxes-block__checkbox--gray:checked ~ .checkboxes-block__fake-chbox {
+  background-color: #4a4851;
+}
+.checkboxes-block__fake-chbox::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.checkboxes-block__label .checkboxes-block__checkbox:checked ~ .checkboxes-block__fake-chbox:after {
+  display: block;
+}
+.checkboxes-block__label .checkboxes-block__fake-chbox:after {
+  left: 8px;
+  top: 4px;
+  width: 8px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 4px 4px 0;
+  transform: rotate(45deg);
+}
+
+.paginations {
+  height: 150px;
+  width: 420px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.paginations__btn {
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #f9fffb;
+  border-radius: 20%;
+}
+.paginations__btn--green {
+  background-color: #4a4851;
+}
+.paginations__btn--yellow {
+  background-color: #f7c908;
+}
+.paginations__btn--red {
+  background-color: #f34333;
+}
+.paginations__btn--blue {
+  background-color: #1e7fbc;
+}
+.paginations__btn--gray {
+  background-color: #4a4851;
+}
+.paginations__btn--arrow_left, .paginations__btn--arrow_right {
+  background-color: #eae7e1;
+}
+.paginations__btn--3d {
+  box-shadow: 2px 2px 3px;
+}
+
+.tabs__list {
+  list-style-type: none;
+  display: flex;
+}
+.tabs__item {
+  padding: 1rem;
+}
+.tabs__item--filled {
+  background-color: inherit;
+}
+.tabs__item--green {
+  background-color: #29b25e;
+  border-bottom: 2px solid #29b25e;
+}
+.tabs__item--yellow {
+  background-color: #f7c908;
+  border-bottom: 2px solid #f7c908;
+}
+.tabs__item--red {
+  background-color: #f34333;
+  border-bottom: 2px solid #f34333;
+}
+.tabs__item--blue {
+  background-color: #1e7fbc;
+  border-bottom: 2px solid #1e7fbc;
+}
+.tabs__item--underlined {
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=index.css.map */

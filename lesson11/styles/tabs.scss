@@ -1,0 +1,41 @@
+.tabs {
+
+    &__list {
+        list-style-type: none;
+        display: flex;
+    }
+
+    &__item {
+        padding: 1rem;
+
+        &--filled {
+            background-color: inherit;
+        }
+
+        &--green {
+            background-color: $green-bg;
+            border-bottom: 2px solid $green-bg;
+        }
+
+        &--yellow {
+            background-color: $yellow-bg;
+            border-bottom: 2px solid $yellow-bg;
+        }
+
+        &--red {
+            background-color: $red-bg;
+            border-bottom: 2px solid $red-bg;
+        }
+
+        &--blue {
+            background-color: $blue-bg;
+            border-bottom: 2px solid $blue-bg;
+        }
+
+    &--underlined {
+        background-color: transparent;
+    }
+      
+    }
+    
+}

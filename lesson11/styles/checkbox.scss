@@ -1,0 +1,72 @@
+.checkboxes-block {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    
+    &__label {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    &__label &__checkbox {
+        position: absolute;
+        opacity: 0;
+    }
+
+    &__fake-chbox {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 28px;
+        width: 28px;
+        background-color: #eee;
+    }
+    
+    &__label &__checkbox--green:checked ~ &__fake-chbox{
+        background-color: $green-bg;
+    }
+
+    &__label &__checkbox--yellow:checked ~ &__fake-chbox{
+        background-color: $yellow-bg;
+    }
+    
+    &__label &__checkbox--red:checked ~ &__fake-chbox{
+        background-color: $red-bg;
+    }
+    
+    &__label &__checkbox--blue:checked ~ &__fake-chbox{
+        background-color: $blue-bg;
+    }
+
+    &__label &__checkbox--gray:checked ~ &__fake-chbox{
+        background-color: $gray-bg;
+    }
+    
+    &__fake-chbox::after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    &__label &__checkbox:checked ~ &__fake-chbox:after {
+        display: block;
+    }
+
+    &__label &__fake-chbox:after {
+        left: 8px;
+        top: 4px;
+        width: 8px;
+        height: 12px;
+        border: solid white;
+        border-width: 0 4px 4px 0;
+        transform: rotate(45deg);
+      }
+}
