@@ -11,27 +11,27 @@
         <div class="main__container">
             <div class="main__message">
                 <h1>Contact</h1>
-                <span>For new projects, ideas, business or anything you'd like to discuss, contact with me!</span>
+                <h3>For new projects, ideas, business or anything <br> you'd like to discuss, contact with me!</h3>
             </div>
-            <div class="main__form">
+            <div class="main__form-container">
                 <form action="#" method="post" enctype="multipart/form-data" class="form">
                     <div class="form__input-container">
                         <div class="form__name">
                             <input type="text" class="input input--active" placeholder="Enter your name and surname" required>
                         </div>
                         <div class="form__mail">
-                            <input type="text" class="input input--active" placeholder="Your E-mail" required>
+                            <input type="email" class="input input--active" placeholder="Your E-mail" required>
                         </div>
                         <div class="form__phone">
-                            <input type="text" class="input input--active" placeholder="Your telephone" required>
+                            <input type="tel" class="input input--active" placeholder="Your telephone" pattern ="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                         </div>
                         <div class="form__msg">
-                            <input type="text" class="input input--active" placeholder="Your message">
+                            <textarea type="text" class="input input--active" placeholder="Your message"></textarea>
                         </div>
                     </div>
-                    <div class="form__buttons-container">
-                        <button type="reset">Reset</button>
-                        <button type="submit">Submit</button>
+                    <div class="form__buttons-container buttons">
+                        <button class="buttons__reset-btn" type="reset">Reset</button>
+                        <button class="buttons__submit-btn" type="submit">Submit</button>
                     </div>
                 </form>
             </div>
@@ -53,9 +53,9 @@
     </main>
     <footer class="footer">
         <div class="footer__container">
-            <span class="footer_copyright"> &copy; 2015 Company. All right reserved</span>
-            <span class="footer_logo">Cahee</span>
-            <span class="footer_author">Made with love by Auskteez</span>
+            <span class="footer__copyright"> &copy; 2015 Company. All right reserved</span>
+            <span class="footer__logo">Cahee</span>
+            <span class="footer__author">Made with <span class="footer__author footer__author--red">love</span> by Auskteez</span>
         </div>  
     </footer>
 </body>

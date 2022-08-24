@@ -1,0 +1,22 @@
+.buttons {
+    position: absolute;
+    bottom: -70px;
+
+    &__submit-btn,
+    &__reset-btn {
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+        color: $white-color;
+        border: none; 
+    }
+
+    &__reset-btn {
+        background-color: $reset-btn-color;
+    }
+
+    &__submit-btn {
+        color: $submit-txt-color;
+        background-color: $white-color;
+    }
+}
