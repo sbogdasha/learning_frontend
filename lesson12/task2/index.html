@@ -16,17 +16,17 @@
                 </div>
                 <div class="auth__form-container">
                     <form class="form" action="#" method="post" enctype="multipart/form-data">
-                        <label for="login">
-                            login
+                        <label class="form__label" for="login">
+                            <span>Username</span>
                             <input type="text" class="form__input" id="login">
                         </label>
-                        <label for="password"> 
-                            password
-                            <input type="text" class="form__input" id="password">
+                        <label class="form__label" for="password"> 
+                            <span>Password</span>
+                            <input type="password" class="form__input" id="password">
                         </label>
-                        <label for="keep-signed">
-                            <input type="checkbox" class="form__input" id="keep-signed">
-                            Keep me signed in 
+                        <label class="form__label form__label--small" for="keep-signed">
+                            <input type="checkbox" class="form__checkbox" id="keep-signed">
+                            <span>Keep me signed in</span> 
                         </label>
                         <button class="form__btn" type="submit">Sign in</button>
                     </form>

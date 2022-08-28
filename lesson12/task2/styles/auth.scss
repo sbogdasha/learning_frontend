@@ -8,15 +8,20 @@
 
     &__container {
         width: 60%;
-        
     }
 
     &__header {
         height: 77px;
+        display: flex;
+        align-items: center;
     }
 
     &__form-container {
         height: 350px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
     }
 
     &__footer {
@@ -31,6 +36,7 @@
 
         &--big {
             font-size: 18px;
+            margin-right: 22px;
         }
 
         &--small {
