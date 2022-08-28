@@ -1,0 +1,46 @@
+.auth {
+    width: 434px;
+    height: 530px;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+    &__container {
+        width: 60%;
+        
+    }
+
+    &__header {
+        height: 77px;
+    }
+
+    &__form-container {
+        height: 350px;
+    }
+
+    &__footer {
+        display: flex;
+        justify-content:space-between;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $white-color;
+        opacity: 0.5;
+
+        &--big {
+            font-size: 18px;
+        }
+
+        &--small {
+            font-size: 13px;
+            border-bottom: 1px solid white ;
+        }
+
+        &--active {
+            opacity: 1;
+            border-bottom: 3px solid $active-link-color;
+        }
+    }
+}
