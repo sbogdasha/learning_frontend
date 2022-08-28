@@ -1,0 +1,14 @@
+.fresh-life {
+    height: 850px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    &__text-block {
+        height: 30%;
+        width: 35%;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+}

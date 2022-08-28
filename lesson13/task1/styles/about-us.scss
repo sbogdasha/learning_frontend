@@ -1,0 +1,26 @@
+.about-us {
+    background-color: #00b2b2;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 700px;
+    overflow: hidden;
+    
+    &__text-block,
+    &__picture-block {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__text-block {
+        height: 300px;
+        color: #fff;
+        padding-left: 40px;
+    }
+
+    &__picture {
+        object-fit:none;
+    }
+}
