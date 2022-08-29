@@ -42,7 +42,7 @@ h3 {
     font-size: 0;
 }
 
-.section-item {
+.main-item {
     display: inline-block;
     width: 25%;
     height: max-content;
@@ -63,16 +63,16 @@ h3 {
     color: #34100f;
 }
 
-.section-item:hover {
+.main-item:hover {
     background-color: #01c7c8;
     color: #ffffff;
 }
 
-.section-item:hover > .item-heading {
+.main-item:hover > .item-heading {
     color: #ffffff;
 }
 
-.section-item:hover > i {
+.main-item:hover > i {
     color: #ffffff;
 }
 
