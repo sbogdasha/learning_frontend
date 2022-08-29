@@ -1,0 +1,31 @@
+.contact {
+  font-size: 18px;
+  background-image: url(../img/contact-bg.png);
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contact__container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact__message {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.contact__form-container, .contact____contacts {
+  width: 50%;
+  height: 500px;
+}
+
+/*# sourceMappingURL=contact.css.map */

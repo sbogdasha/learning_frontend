@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    --bg-color:  #f8f8fb;
 }
 
 html {
@@ -10,7 +9,6 @@ html {
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
-    background-color: var(--bg-color);
 }
 
 body {

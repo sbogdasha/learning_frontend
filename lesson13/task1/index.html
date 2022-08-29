@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -45,5 +46,56 @@
             <img class="about-us__picture" src="img/img-2.png" alt="berries">
         </div>
     </section>
+    <section class="section contact">
+        <div class="contact__container">
+            <div class="contact__heading">
+                <h1>Contact</h1>
+                <h3>For new projects, ideas, business or anything <br> you'd like to discuss, contact with me!</h3>
+            </div>
+            <div class="contact__form-container">
+                <form action="#" method="post" enctype="multipart/form-data" class="form">
+                    <div class="form__input-container">
+                        <div class="form__name">
+                            <input type="text" class="input input--active" placeholder="Enter your name and surname" required>
+                        </div>
+                        <div class="form__mail">
+                            <input type="email" class="input input--active" placeholder="Your E-mail" required>
+                        </div>
+                        <div class="form__phone">
+                            <input type="tel" class="input input--active" placeholder="Your telephone" pattern ="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                        </div>
+                        <div class="form__msg">
+                            <textarea class="input input--active" placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="form__buttons-container form-buttons">
+                        <button class="form-buttons__reset-btn" type="reset">Reset</button>
+                        <button class="form-buttons__submit-btn" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="contact__reach-us reach-us">
+                <div class="reach-us__adress">
+                    <p>ADDRESS</p>
+                    <span>123 City name, Street, City, Country</span>
+                </div>
+                <div class="reach-us__email">
+                    <p>EMAIL</p>
+                    <span>cahee@domain.com</span>
+                </div>
+                <div class="reach-us__phone">
+                    <p>PHONE</p>
+                    <span>+012 345 6789</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <span class="footer__copyright"> &copy; 2015 Company. All right reserved</span>
+            <span class="footer__logo">Cahee</span>
+            <span class="footer__author">Made with <span class="footer__author footer__author--red">love</span> by Auskteez</span>
+        </div>  
+    </footer>
 </body>
 </html>
