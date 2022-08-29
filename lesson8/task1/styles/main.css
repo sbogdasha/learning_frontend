@@ -15,7 +15,9 @@ body {
     flex-direction: column;
     flex: auto;
 }
-
+h4 {
+    font-weight: normal;
+}
 header {
     width: 100%;
     display: flex;
