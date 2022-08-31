@@ -1,0 +1,36 @@
+.articles {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article {
+    height: 310px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+
+    &__author {
+        color: $article-author-txt;
+    }
+
+    &__header {
+        margin-bottom: 7px;
+    }
+
+    &--smoothie {
+        background: url(../img/article-img1.png);
+    }
+
+    &--peas {
+        background: url(../img/article-img2.png);
+    }
+
+    &--berries {
+        background: url(../img/article-img3.png);
+    }
+}

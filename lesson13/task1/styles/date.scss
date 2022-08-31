@@ -1,0 +1,23 @@
+.date {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: $date-color;
+        font-size: 32px;
+        font-weight: 700;
+
+    &__day,
+    &__month {
+        font-weight: 700;
+    }
+
+    &__day {
+        font-size: 32px;
+    }
+
+    &__month {
+        font-size: 21px;
+    }
+}

@@ -1,0 +1,20 @@
+.subscribe {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/subscribe-bg.png);
+    
+    &__container {
+        height: 100%;
+        width: 73.125em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__form-block {
+        width: 67%;
+    }
+}

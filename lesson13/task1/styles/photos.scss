@@ -1,0 +1,40 @@
+.photos {
+    display: flex;
+    justify-content: center;
+    height: 1200px;
+    width: 100%;
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 1000px;
+        width: 100%;
+    }
+
+    &__small-photos {
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}
+
+.photo {
+
+    &--small {
+        width: 370px;
+        height: 260px;
+    }
+
+    &--mid {
+        width: 570px;
+        height: 400px;
+    }
+
+    &--big {
+        width: 770px;
+        height: 550px;
+    }
+}

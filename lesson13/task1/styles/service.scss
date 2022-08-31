@@ -1,0 +1,31 @@
+.service {
+    display: flex;
+    color: $black-color;
+    width: 100%;
+    
+    &__name,
+    &__icon {
+        height: 100px;
+        background-color: $service-item-bg;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        text-align: center;
+        box-shadow: 0px 0px 5px $black-color;
+    }
+
+    &__name {
+        width: 70%;
+        font-size: 20px;
+        border-right: 1px solid $black-color;
+        font-weight: bold;
+        min-width: 260px;
+    }
+
+    &__icon {
+        width: 30%;
+        min-width: 64px;
+        max-width: 100px;
+    }
+}

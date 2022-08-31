@@ -1,10 +1,19 @@
 .about-us {
-    background-color: #00b2b2;
+    background-color: $about-us-bg-color;
     display: flex;
-    flex-direction: row-reverse;
     align-items: center;
-    height: 700px;
+    justify-content: center;
+    height: 900px;
     overflow: hidden;
+
+    &__container {
+        height: 700px;
+        width: 73.125em;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
     
     &__text-block,
     &__picture-block {
@@ -14,9 +23,14 @@
         justify-content: center;
     }
 
+    &__picture-block {
+        height: 100%;
+        background: url(../img/img-2.png) center no-repeat;
+    }
+
     &__text-block {
         height: 300px;
-        color: #fff;
+        color: $white-color;
         padding-left: 40px;
     }
 

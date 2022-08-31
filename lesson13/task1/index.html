@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
     <title>Lesson 13.1 </title>
     <link rel="stylesheet" href="./build/index.css">
+    <script src="https://kit.fontawesome.com/2a245c2d80.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -33,24 +34,154 @@
         </section>
     </div>
     <section class ="section about-us">
-        <div class="about-us__text-block">
-            <h2>About us</h2>
-            <p>  
-                Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
-            </p> <br>
-            <p>
-                Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
-            </p>
+        <div class="about-us__container">
+            <div class="about-us__text-block">
+                <h2>About us</h2>
+                <p>  
+                    Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+                </p>
+                <p>
+                    Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+                </p>
+            </div>
+            <div class="about-us__picture-block"></div>
         </div>
-        <div class="about-us__picture-block">
-            <img class="about-us__picture" src="img/img-2.png" alt="berries">
+    </section>
+    <section class ="section our-services">
+        <div class="our-services__container">
+            <div class="our-services__text-block">
+                <div class="our-services__list">
+                    <div class="our-services__item service">
+                        <div class="service__name">
+                            <span>Online Shopping</span>
+                        </div>
+                        <div class="service__icon">
+                            <i class="fa-solid fa-cart-shopping fa-2x"></i>
+                        </div>
+                    </div>
+                    <div class="our-services__item service">
+                        <div class="service__name">
+                            <span>Quality Product</span>
+                        </div>
+                        <div class="service__icon">
+                            <i class="fa-solid fa-hand-holding-droplet fa-2x"></i>
+                        </div>
+                    </div>
+                    <div class="our-services__item service">
+                        <div class="service__name">
+                            <span>Domestic & International Delivery</span>
+                        </div>
+                        <div class="service__icon">
+                            <i class="fa-solid fa-earth-europe fa-2x"></i>
+                        </div>
+                    </div>
+                    <div class="our-services__item service">
+                        <div class="service__name">
+                            <span>Well Organized</span>
+                        </div>
+                        <div class="service__icon">
+                            <i class="fa-solid fa-carrot fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="our-services__picture-block">
+                <h2>Our services</h2>
+            </div>
+        </div>
+    </section>
+    <section class ="section gallery">
+        <div class="gallery__container">
+            <div class="gallery__text-block">
+                <h2 class="contact__heading">Gallery</h2>
+                <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <br> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br> ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="gallery__photos photos">
+                <div class="photos__container">
+                    <div class="photos__photo photo photo--big">
+                        <img class="image" src="img/gallery-1.png" alt="peach">
+                    </div>
+                    <div class="photos__small-photos">
+                        <div class="photo photo--small">
+                            <img class="image" src="img/gallery-2.png" alt="berries">
+                        </div>
+                        <div class="photo photo--small">
+                            <img class="image" src="img/gallery-3.png" alt="raspberries">
+                        </div>
+                    </div>
+                    <div class="photos__photo photo photo--mid">
+                        <img class="image" src="img/gallery-4.png" alt="plate">
+                    </div>
+                    <div class="photos__photo photo photo--mid">
+                        <img class="image" src="img/gallery-5.png" alt="fruit">
+                    </div>
+                </div>
+            </div>
+            <button class="gallery__btn button button--grey">View more</button>
+        </div>
+    </section>
+    <section class ="section subscribe">
+        <div class="subscribe__container">
+            <div class="subscribe__form-block">
+                <form class="subscription-form" action="#" method="post" enctype="text/plain">
+                    <div class="subscription-form__description">
+                        <h4>Subscribe To Us</h4>
+                        <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    </div>
+                    <div class="subscription-form__mail-input-block">
+                        <input type="email" class="mail-input" placeholder="Enter your email" required>
+                        <button type="submit" class="button button--green">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class ="section blog">
+        <div class="blog__container">
+            <div class="blog__text-block">
+                <h2 class="contact__heading">Blog</h2>
+                <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <br> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br> ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="blog__articles articles">
+                <div class="articles__article article article--smoothie">
+                    <div class="article__date date">
+                        <span class="date__day">20</span>
+                        <span class="date__month">NOV</span>
+                    </div>
+                    <div class="article__text">
+                    <h5 class="article__header">Green Smoothies Too Much of a Good Thing?</h5>
+                    <span class="article__author">By Sbogdasha - 2 hours ago</span>
+                    </div>
+                </div>
+                <div class="articles__article article article--peas">
+                    <div class="article__date date">
+                        <span class="date__day">14</span>
+                        <span class="date__month">NOV</span>
+                    </div>
+                    <div class="article__text">
+                    <h5 class="article__header">Growing Food and a “Thirst” for Innovation</h5>
+                    <span class="article__author">By Sbogdasha - 3 hours ago</span>
+                    </div>
+                </div>
+                <div class="articles__article article article--berries">
+                    <div class="article__date date">
+                        <span class="date__day">10</span>
+                        <span class="date__month">NOV</span>
+                    </div>
+                    <div class="article__text">
+                    <h5 class="article__header">Pesticides & Food: What You Need to Know</h5>
+                    <span class="article__author">By Sbogdasha - 6 hours ago</span>
+                    </div>
+                </div>
+            </div>
+            <button class="gallery__btn button button--red">View more</button>
         </div>
     </section>
     <section class="section contact">
         <div class="contact__container">
-            <div class="contact__heading">
-                <h1>Contact</h1>
-                <h3>For new projects, ideas, business or anything <br> you'd like to discuss, contact with me!</h3>
+            <div class="contact__text-block">
+                <h2 class="contact__heading">Contact</h2>
+                <p>For new projects, ideas, business or anything <br> you'd like to discuss, contact with me!</p>
             </div>
             <div class="contact__form-container">
                 <form action="#" method="post" enctype="multipart/form-data" class="form">
@@ -65,7 +196,7 @@
                             <input type="tel" class="input input--active" placeholder="Your telephone" pattern ="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                         </div>
                         <div class="form__msg">
-                            <textarea class="input input--active" placeholder="Your message"></textarea>
+                            <textarea class="textarea textarea--active" placeholder="Your message"></textarea>
                         </div>
                     </div>
                     <div class="form__buttons-container form-buttons">
@@ -92,9 +223,9 @@
     </section>
     <footer class="footer">
         <div class="footer__container">
-            <span class="footer__copyright"> &copy; 2015 Company. All right reserved</span>
+            <span class="footer__copyright"> &copy; 2022 Company. All right reserved</span>
             <span class="footer__logo">Cahee</span>
-            <span class="footer__author">Made with <span class="footer__author footer__author--red">love</span> by Auskteez</span>
+            <span class="footer__author">Made with <span class="footer__author footer__author--red">love</span> by sbogdasha</span>
         </div>  
     </footer>
 </body>

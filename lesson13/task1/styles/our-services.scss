@@ -1,0 +1,50 @@
+.our-services {
+    background-color: $our-services-bg-bolor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+    overflow: hidden;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 700px;
+        width: 73.125em;
+    }
+    
+    &__text-block,
+    &__picture-block {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__text-block {
+        height: 100%;
+        z-index: 2;
+    }
+
+    &__picture {
+        object-fit:none;
+    }
+
+    &__picture-block {
+        color: $white-color;
+        height: 100%;
+        background: url(../img/services-img.png) center no-repeat;
+        text-align: center;
+        z-index: 1;
+    }
+
+    &__list {
+        width: 80%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
