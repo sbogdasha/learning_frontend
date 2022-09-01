@@ -1,17 +1,26 @@
-/* Error: Undefined variable.
- *    ,
- * 10 |     box-shadow: 0px 2px 5px $black-color;
- *    |                             ^^^^^^^^^^^^
- *    '
- *   lesson13\task1\styles\button.scss 10:29  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 10 \2502      box-shadow: 0px 2px 5px $black-color;\d\a    \2502                              ^^^^^^^^^^^^\a    \2575 \a   lesson13\\task1\\styles\\button.scss 10:29  root stylesheet";
+.button {
+  width: 200px;
+  min-width: 200px;
+  height: 55px;
+  min-height: 55px;
+  text-transform: uppercase;
+  border: none;
+  color: #fff;
+  box-shadow: 0px 2px 5px #000000;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
 }
+.button--orange {
+  background-color: #ff6033;
+}
+.button--grey {
+  background-color: #56829f;
+}
+.button--green {
+  background-color: #95b72d;
+}
+.button--red {
+  background-color: #f02839;
+}
+
+/*# sourceMappingURL=button.css.map */

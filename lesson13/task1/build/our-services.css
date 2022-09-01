@@ -1,17 +1,45 @@
-/* Error: Undefined variable.
- *   ,
- * 2 |     background-color: $our-services-bg-bolor;
- *   |                       ^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   lesson13\task1\styles\our-services.scss 2:23  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 2 \2502      background-color: $our-services-bg-bolor;\d\a   \2502                        ^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   lesson13\\task1\\styles\\our-services.scss 2:23  root stylesheet";
+.our-services {
+  background-color: #70befc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 900px;
+  overflow: hidden;
 }
+.our-services__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 73.125em;
+}
+.our-services__text-block, .our-services__picture-block {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.our-services__text-block {
+  height: 100%;
+  z-index: 2;
+}
+.our-services__picture {
+  object-fit: none;
+}
+.our-services__picture-block {
+  color: #fff;
+  height: 100%;
+  background: url(../img/services-img.png) center no-repeat;
+  text-align: center;
+  z-index: 1;
+}
+.our-services__list {
+  width: 80%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*# sourceMappingURL=our-services.css.map */

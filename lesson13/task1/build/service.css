@@ -1,17 +1,29 @@
-/* Error: Undefined variable.
- *   ,
- * 3 |     color: $black-color;
- *   |            ^^^^^^^^^^^^
- *   '
- *   lesson13\task1\styles\service.scss 3:12  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 3 \2502      color: $black-color;\d\a   \2502             ^^^^^^^^^^^^\a   \2575 \a   lesson13\\task1\\styles\\service.scss 3:12  root stylesheet";
+.service {
+  display: flex;
+  color: #000000;
+  width: 100%;
 }
+.service__name, .service__icon {
+  height: 100px;
+  background-color: #fffeff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0px 0px 5px #000000;
+}
+.service__name {
+  width: 70%;
+  font-size: 20px;
+  border-right: 1px solid #000000;
+  font-weight: bold;
+  min-width: 260px;
+}
+.service__icon {
+  width: 30%;
+  min-width: 64px;
+  max-width: 100px;
+}
+
+/*# sourceMappingURL=service.css.map */

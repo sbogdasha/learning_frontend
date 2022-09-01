@@ -1,7 +1,9 @@
+@import 'variables.scss';
+
 .textarea {
     width: 100%;
     height: 100%;
-    background-color: $form-background-color;
+    background-color:  $form-background-color;
     opacity: 0.5;
     color: $white-color;
     border: none;
