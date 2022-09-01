@@ -1,0 +1,26 @@
+@import 'variables';
+
+.working {
+    height: 1072px;
+    background: url(../img/working-bg.png) no-repeat center;
+    background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    color: $white-color;
+    display: flex;
+    justify-content: center;
+        
+    &__container {
+        width: 903px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__text {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+}
