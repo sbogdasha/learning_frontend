@@ -1,0 +1,51 @@
+.gallery {
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__top, 
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+
+        &--side {
+            height: 237px;
+            width: 28.5%;
+            background-color: aqua;
+        }
+    
+        &--mid {
+            height: 237px;
+            width: 41.7%;
+            background-color: cadetblue;
+        }
+
+        &--topworkz {
+            background: url(../img/topworkz.png);
+        }
+
+        &--joint {
+            background: url(../img/joint.png);
+        }
+
+        &--market {
+            background: url(../img/market.png);
+        }
+
+        &--worktop {
+            background: url(../img/worktop.png);
+        }
+
+        &--lable {
+            background: url(../img/lable.png);
+        }
+
+        &--kyiv {
+            background: url(../img/kyiv.png);
+        }
+    }
+}

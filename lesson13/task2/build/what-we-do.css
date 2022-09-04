@@ -1,0 +1,14 @@
+.what-we-do {
+  height: 1414px;
+  display: flex;
+  justify-content: center;
+}
+.what-we-do__container {
+  width: 903px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=what-we-do.css.map */

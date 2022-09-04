@@ -1,0 +1,14 @@
+.about-us {
+  height: 631px;
+  display: flex;
+  justify-content: center;
+}
+.about-us__container {
+  width: 903px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=about-us.css.map */

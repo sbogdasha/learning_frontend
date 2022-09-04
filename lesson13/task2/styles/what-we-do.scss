@@ -1,0 +1,13 @@
+.what-we-do {
+    height: 1414px;
+    display: flex;
+    justify-content: center;
+
+    &__container {
+        width: 903px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

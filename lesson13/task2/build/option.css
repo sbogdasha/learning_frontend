@@ -1,0 +1,19 @@
+.option__icon {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.option__subtitle {
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.option__paragraph {
+  line-height: 28px;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+/*# sourceMappingURL=option.css.map */

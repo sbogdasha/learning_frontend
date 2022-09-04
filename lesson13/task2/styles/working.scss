@@ -18,9 +18,31 @@
         align-items: center;
     }
 
-    &__text {
+    &__logo {
+        height: 357px;
         display: flex;
+        align-items: flex-end;
+    }
+
+    &__content {
+        letter-spacing: 0.2em;
+        height: 415px;
+        display: flex;
+        justify-content: center;
         text-align: center;
         flex-direction: column;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        font-size: 15px;
+        line-height: 24px;
+        margin-top: 55px;
+    }
+
+    &__scroll {
+        height: 185px;
+        display: flex;
+        align-items: flex-end;
     }
 }

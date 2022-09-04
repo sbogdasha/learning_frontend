@@ -1,0 +1,15 @@
+.services {
+    height: 488px;
+    display: flex;
+    justify-content: center;
+    background: url(../img/services-bg.png);
+
+    &__container {
+        width: 903px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: $white-color;
+    }
+}
