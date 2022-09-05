@@ -1,3 +1,5 @@
+@import 'variables';
+
 .gallery {
     height: 482px;
     display: flex;
@@ -11,17 +13,20 @@
     }
 
     &__item {
+        height: 237px;
+        color: $white-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 0 0 2em 2em;
+
 
         &--side {
-            height: 237px;
             width: 28.5%;
-            background-color: aqua;
         }
     
         &--mid {
-            height: 237px;
             width: 41.7%;
-            background-color: cadetblue;
         }
 
         &--topworkz {

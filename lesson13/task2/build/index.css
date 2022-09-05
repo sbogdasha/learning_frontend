@@ -188,15 +188,19 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
-.gallery__item--side {
+.gallery__item {
   height: 237px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 2em 2em;
+}
+.gallery__item--side {
   width: 28.5%;
-  background-color: aqua;
 }
 .gallery__item--mid {
-  height: 237px;
   width: 41.7%;
-  background-color: cadetblue;
 }
 .gallery__item--topworkz {
   background: url(../img/topworkz.png);
@@ -215,6 +219,43 @@ h2 {
 }
 .gallery__item--kyiv {
   background: url(../img/kyiv.png);
+}
+
+.contact-us {
+  height: 432px;
+  display: flex;
+  justify-content: center;
+}
+.contact-us__container {
+  width: 903px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.button {
+  height: 58px;
+  width: 395px;
+  background-color: #3c3c3c;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  margin-bottom: 50px;
+  letter-spacing: 0.1em;
+}
+
+.footer {
+  height: 165px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__logo {
+  margin-right: 3em;
+}
+.footer__text {
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=index.css.map */

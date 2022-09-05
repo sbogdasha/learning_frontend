@@ -1,0 +1,12 @@
+@import 'variables';
+
+.button {
+    height: 58px;
+    width: 395px;
+    background-color: $btn-color;
+    color: $white-color;
+    text-transform: uppercase;
+    border: none;
+    margin-bottom: 50px;
+    letter-spacing: 0.1em;
+}
